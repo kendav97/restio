@@ -1,0 +1,55 @@
+{
+  "app": {
+    "name": "Restio"
+  },
+  "auth": {
+    "pin": {
+      "title": "Enter your PIN",
+      "submit": "Sign in",
+      "invalid": "Wrong PIN",
+      "chooseUser": "Who are you?",
+      "back": "Back",
+      "noUsers": "Downloading staff…",
+      "noUsersOffline": "Offline and no staff downloaded yet. Connect the device to the internet."
+    },
+    "logout": "Sign out"
+  },
+  "role": {
+    "waiter": "Waiter"
+  },
+  "tables": {
+    "open": {
+      "guestsLabel": "{count, plural, one {# guest} other {# guests}}"
+    }
+  },
+  "sync": {
+    "pendingEvents": "{count, plural, =0 {All synced} one {# unsynced change} other {# unsynced changes}}",
+    "offline": "Offline",
+    "online": "Online",
+    "syncNow": "Sync now",
+    "rejectedEvents": "{count, plural, one {# change rejected by the cloud} other {# changes rejected by the cloud}}"
+  },
+  "product": {
+    "soldOut": "Sold out"
+  },
+  "errors": {
+    "UNEXPECTED": "Something went wrong",
+    "NETWORK": "Could not reach the server",
+    "AUTH_INVALID_PAIRING_CODE": "The linking code is invalid or has expired",
+    "AUTH_INVALID_DEVICE": "This device is no longer linked"
+  },
+  "device": {
+    "pair": {
+      "title": "Link device",
+      "instructions": "Scan the QR shown by the back office under Devices.",
+      "allowCamera": "Allow camera",
+      "orType": "Or type the code:",
+      "submit": "Link",
+      "invalidCode": "That code is not valid"
+    }
+  },
+  "home": {
+    "greeting": "Hi, {name}",
+    "device": "Device {name} ({code})"
+  }
+}

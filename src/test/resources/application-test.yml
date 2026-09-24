@@ -1,0 +1,10 @@
+spring:
+  jpa:
+    show-sql: false
+  flyway:
+    clean-disabled: false
+    locations: classpath:db/migration,classpath:db/testdata
+
+restio:
+  jwt:
+    secret: test-secret-key-with-at-least-32-bytes-length

@@ -1,0 +1,24 @@
+# Private documentation (lives in a separate private repository)
+CLAUDE.md
+.claude/
+
+# Java / Maven
+target/
+*.log
+
+# Node / frontend
+node_modules/
+dist/
+.expo/
+.turbo/
+*.tsbuildinfo
+
+# Environment
+.env
+.env.local
+
+# IDE / OS
+.idea/
+*.iml
+.vscode/
+.DS_Store

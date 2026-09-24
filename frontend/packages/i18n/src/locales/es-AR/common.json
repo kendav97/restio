@@ -1,0 +1,24 @@
+{
+  "auth": {
+    "pin": {
+      "title": "Ingresá tu PIN",
+      "chooseUser": "¿Quién sos?",
+      "noUsersOffline": "Sin conexión y sin empleados descargados. Conectá el dispositivo a internet."
+    }
+  },
+  "role": {
+    "waiter": "Mozo"
+  },
+  "product": {
+    "soldOut": "Sin stock"
+  },
+  "device": {
+    "pair": {
+      "instructions": "Escaneá el QR que muestra el backoffice en Dispositivos.",
+      "orType": "O escribí el código:"
+    }
+  },
+  "errors": {
+    "AUTH_INVALID_PAIRING_CODE": "El código de vinculación no es válido o venció"
+  }
+}

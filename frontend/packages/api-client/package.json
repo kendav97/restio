@@ -1,0 +1,26 @@
+{
+  "name": "@restio/api-client",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run --passWithNoTests",
+    "lint": "eslint src",
+    "openapi:fetch": "curl -fsS ${RESTIO_API_URL:-http://localhost:8080}/v3/api-docs -o openapi.json",
+    "generate": "openapi-typescript openapi.json -o src/schema.ts && prettier --write src/schema.ts openapi.json"
+  },
+  "dependencies": {
+    "openapi-fetch": "^0.14.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.12.0",
+    "openapi-typescript": "^7.9.1",
+    "prettier": "^3.3.3",
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.3"
+  }
+}
