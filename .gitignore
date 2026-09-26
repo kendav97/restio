@@ -1,6 +1,7 @@
 # Private documentation (lives in a separate private repository)
 CLAUDE.md
 .claude/
+.git-docs/
 
 # Java / Maven
 target/
